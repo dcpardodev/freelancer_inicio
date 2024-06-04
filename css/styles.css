@@ -11,6 +11,7 @@ html {
 }
 body {
     font-size: 16px; /* Esta línea ayuda a la conversión de 1rem=10px */
+    font-family: "Krub", sans-serif;
 }
 .titulo {
     text-align: center;
