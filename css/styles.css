@@ -32,6 +32,10 @@ body {
 }
 
 .navegador-principal {
-    
+    padding: 1rem;
 }
 
+.navegador-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+}
