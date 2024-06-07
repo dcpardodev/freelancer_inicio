@@ -33,6 +33,8 @@ body {
 
 .navegador-principal {
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navegador-principal a {
