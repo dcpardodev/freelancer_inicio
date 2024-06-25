@@ -9,7 +9,11 @@
 /** ========== CONTENIDO BASE ========== **/
 html {
     font-size: 62.5%; /* Esta línea ayuda a la conversión de 1rem=10px */
+    box-sizing: border-box; /* Esta línea ayuda a la adaptacion de las cajas a un tamaño que determinemos */
 }
+*, *:before, *:after {
+    box-sizing: inherit; /* Esta línea ayuda a la adaptacion de las cajas a un tamaño que determinemos */
+  }
 body {
     font-size: 16px; /* Esta línea ayuda a la conversión de 1rem=10px */
     font-family: "Krub", sans-serif;
@@ -58,4 +62,6 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
